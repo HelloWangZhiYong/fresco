@@ -1,0 +1,3 @@
+include ':app'
+include ':fresco-helper'
+rootProject.name = "fresco"

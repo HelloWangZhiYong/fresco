@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="picture_browse_activity_style" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--<item name="android:windowFullscreen">true</item>-->
+    </style>
+
+    <color name="default_background_color">@android:color/transparent</color>
+    <color name="default_progress_color">#33b5e5</color>
+    <color name="default_stroke_color">#33b5e5</color>
+    <color name="default_text_color">#333333</color>
+
+    <declare-styleable name="LoadingProgressBarView">
+        <attr name="android:text"/>
+        <attr name="android:textSize"/>
+        <attr name="android:textColor"/>
+        <attr name="ffProgress" format="integer"/>
+        <attr name="ffMax" format="integer"/>
+        <attr name="ffStartAngle" format="integer"/>
+        <attr name="ffInverted" format="boolean"/>
+        <attr name="ffCounterclockwise" format="boolean"/>
+        <attr name="ffStrokeWidth" format="dimension"/>
+        <attr name="ffBackgroundColor" format="reference|color"/>
+        <attr name="ffProgressColor" format="reference|color"/>
+        <attr name="ffStrokeColor" format="reference|color"/>
+        <attr name="ffShowStroke" format="boolean"/>
+        <attr name="ffShowText" format="boolean"/>
+        <attr name="ffTypeface" format="string"/>
+        <attr name="ffImage" format="reference"/>
+        <attr name="ffProgressFillType" format="enum">
+            <enum name="radial" value="0"/>
+            <enum name="center" value="1"/>
+        </attr>
+    </declare-styleable>
+
+</resources>
